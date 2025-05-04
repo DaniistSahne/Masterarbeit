@@ -1,0 +1,6 @@
+path: C:/Users/daniil/Desktop/Masterarbeit/data/prep_train_data
+train: C:/Users/daniil/Desktop/Masterarbeit/data/prep_train_data/train/images
+val: C:/Users/daniil/Desktop/Masterarbeit/data/prep_train_data/valid/images
+
+nc: 4  
+names: ['Finger', 'Motiv', 'Text', 'Seite']

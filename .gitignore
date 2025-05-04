@@ -1,0 +1,39 @@
+# >>> data-Verzeichnis: nur Struktur behalten <<<
+data/**
+!data/.gitkeep
+!data/**/
+!data/**/*.md
+
+# Python-Cache & temporäre Dateien
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.log
+*.tmp
+*.swp
+*.DS_Store
+
+# Jupyter Notebook-Checkpoints
+.ipynb_checkpoints/
+
+# VS Code-Ordner
+.vscode/
+
+# Umgebung / Pipenv / Conda / Virtualenv
+.env
+.venv/
+env/
+venv/
+*.egg-info/
+
+# OS-spezifische Dateien
+Thumbs.db
+ehthumbs.db
+.DS_Store
+
+# Output/Ergebnisse
+*.ckpt
+*.pt
+runs/
+train_ergebnisse/
