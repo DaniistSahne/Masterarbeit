@@ -29,8 +29,7 @@ Das Projekt schließt mit einer statistischen Untersuchung der häufigsten Motiv
 
 ## Anhänge
 - LIDO-XML-Stichproben
-- Visualisierungen (z. B. Diagramme)
-- 
+- Visualisierungen (z. B. Diagramme) 
 
 ## Lizenz / Hinweise
 Diese Arbeit entstand im Rahmen einer Masterabschlussarbeit. Der Quellcode unterliegt keiner kommerziellen Lizenzierung, darf jedoch **nicht ohne Genehmigung weiterverwendet oder publiziert** werden.
