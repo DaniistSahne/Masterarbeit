@@ -1,10 +1,20 @@
-# >>> data-Verzeichnis: nur Struktur behalten <<<
-data/**
-!data/.gitkeep
-!data/**/
+# === data: alles ignorieren ===
+data/*
+
+# === Ausnahme: Nur diese zwei Unterordner einbeziehen ===
+!data/metadata/
+!data/metadata/**
+!data/xml_stichproben/
+!data/xml_stichproben/**
+
+# Falls du andere .md-Dateien brauchst:
 !data/**/*.md
 
-# Python-Cache & temporäre Dateien
+# Optionale leere Ordner behalten (falls nötig)
+!data/metadata/.gitkeep
+!data/xml_stichproben/.gitkeep
+
+# === Python Cache & temporäre Dateien ===
 __pycache__/
 *.py[cod]
 *.so
@@ -14,10 +24,10 @@ __pycache__/
 *.swp
 *.DS_Store
 
-# Jupyter Notebook-Checkpoints
+# Jupyter Notebook Checkpoints
 .ipynb_checkpoints/
 
-# VS Code-Ordner
+# VS Code Settings
 .vscode/
 
 # Umgebung / Pipenv / Conda / Virtualenv
@@ -27,12 +37,12 @@ env/
 venv/
 *.egg-info/
 
-# OS-spezifische Dateien
+# OS-spezifisch
 Thumbs.db
 ehthumbs.db
 .DS_Store
 
-# Output/Ergebnisse
+# Modelldateien / Ergebnisse / Checkpoints
 *.ckpt
 *.pt
 runs/

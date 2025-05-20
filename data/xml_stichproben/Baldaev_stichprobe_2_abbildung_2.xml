@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lido:lidoWrap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.lido-schema.org" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:gml="http://www.opengis.net/gml" xmlns:doc="http://www.mda.org.uk/spectrumXML/Documentation" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:lido="http://www.lido-schema.org" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:smil20lang="http://www.w3.org/2001/SMIL20/Language" xsi:schemaLocation="http://www.lido-schema.org http://www.lido-schema.org/schema/v1.1/lido-v1.1.xsd">
+			   
+	<!-- Metadata related to the editing of this record:
+     dct:title:        Baldaev-Archive.xml
+     dct:creator:      Daniil Chekurov
+     dct:created:      2025-02-101981
+     dct:modified:     2025-03-19
+     dct:subject:      Drawings, Graphic Arts, Prison Tattoos
+-->
+			   
+
+	<lido:lido>
+		<!-- Identifikatoren für LIDO Datensatz und Objekt-->
+		<lido:lidoRecID lido:type="http://terminology.lido-schema.org/lido00100">BALDAEV-MOTIF-0615</lido:lidoRecID>
+		
+		<!--Element Category-->
+		<lido:category>
+			<skos:Concept rdf:about="http://terminology.lido-schema.org/lido00096">
+				<skos:prefLabel xml:lang="en">Human-made object</skos:prefLabel>
+				<skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300386957"/>
+				<skos:exactMatch rdf:resource="http://erlangen-crm.org/current/E22_Human-Made_Object"/>
+			</skos:Concept>
+			<lido:term lido:addedSearchTerm="yes" xml:lang="en">man-made object</lido:term>
+		</lido:category>
+		
+		<!--Anwendungsprofil-->
+		<lido:applicationProfile lido:type="http://terminology.lido-schema.org/lido00099">https://lido-schema.org/schema/v1.1/lido-v1.1.html#applicationProfile</lido:applicationProfile>
+		
+		<!-- Deskriptive Metadaten -->
+		<lido:descriptiveMetadata xml:lang="en">
+		
+			<lido:objectClassificationWrap>
+				<!--Objekttypen-->
+				<lido:objectWorkTypeWrap>
+					<!-- Objekt nach Material oder Technik (lido00789) -->
+					<lido:objectWorkType lido:type="http://terminology.lido-schema.org/lido00789">
+						<skos:Concept rdf:about="http://vocab.getty.edu/page/aat/300404676">
+							<skos:prefLabel xml:lang="en">pen and ink drawings</skos:prefLabel>
+						</skos:Concept>
+					</lido:objectWorkType>
+					<!-- Objekt nach Funktion (lido00767) -->
+					<lido:objectWorkType lido:type="http://terminology.lido-schema.org/lido00767">
+						<skos:Concept rdf:about="http://vocab.getty.edu/aat/300015640">
+							<skos:prefLabel xml:lang="en">Copy (derivative object)</skos:prefLabel>
+						</skos:Concept>
+					</lido:objectWorkType>
+				</lido:objectWorkTypeWrap>
+				<!--Klassifikation-->
+				<lido:classificationWrap>
+					<!-- Sachgruppe (lido00932) -->
+					<lido:classification lido:type="http://terminology.lido-schema.org/lido00932">
+						<skos:Concept rdf:about="http://vocab.getty.edu/page/aat/300033973">
+							<skos:prefLabel xml:lang="en">drawings (visual works)</skos:prefLabel>
+						</skos:Concept>
+					</lido:classification>
+				</lido:classificationWrap>
+			</lido:objectClassificationWrap>
+			
+			<!--Objektidentifikation-->
+			<lido:objectIdentificationWrap>
+			
+				<!--Titel-->
+				<lido:titleWrap>
+					<lido:titleSet lido:type="http://vocab.getty.edu/aat/300417199">
+						<lido:appellationValue lido:pref="http://terminology.lido-schema.org/lido00169" xml:lang="en">Anthropomorphic bird with hat holding bouquet of flowers and berries</lido:appellationValue>
+						<lido:sourceAppellation>Daniil Chekurov</lido:sourceAppellation>
+					</lido:titleSet>
+				</lido:titleWrap>
+				
+				<!--Inschrift-->
+				<lido:inscriptionsWrap>
+					<lido:inscriptions lido:type="http://vocab.getty.edu/aat/300028702">
+						<!-- Transkription der Inschrift -->
+						<lido:inscriptionTranscription xml:lang="ru">Поздравляю с УДО!</lido:inscriptionTranscription>
+						<lido:inscriptionTranscription xml:lang="en">Congratulations on your early release on parole!</lido:inscriptionTranscription>
+						<!-- Beschreibung der Inschrift -->
+						<lido:inscriptionDescription xml:lang="en">УДО (условно-досрочное освобождение) translates to early release on parole or conditional release
+						<lido:sourceDescriptiveNote xml:lang ="ru">--</lido:sourceDescriptiveNote> 
+						</lido:inscriptionDescription>
+					</lido:inscriptions>
+				</lido:inscriptionsWrap>
+				
+				<!--Aufbewahrungsort-->
+				<lido:repositoryWrap>
+					<lido:repositorySet lido:type="http://terminology.lido-schema.org/lido01018">
+						<lido:displayRepository xml:lang="eng">FUEL Design &amp; Publishing</lido:displayRepository>
+						<lido:repositoryName>
+							<lido:legalBodyID lido:type="http://terminology.lido-schema.org/lido00099">https://d-nb.info/gnd/5528091-2</lido:legalBodyID>
+							<lido:legalBodyName>
+								<lido:appellationValue lido:pref="http://terminology.lido-schema.org/lido00169" xml:lang="de">Murray &amp; Sorrell FUEL, Design &amp; Publishing</lido:appellationValue>
+							</lido:legalBodyName>
+							<lido:legalBodyWeblink>https://fuel-design.com/</lido:legalBodyWeblink>
+						</lido:repositoryName>
+						<lido:repositoryLocation>
+							<lido:placeID lido:type="http://terminology.lido-schema.org/lido00099">http://vocab.getty.edu/tgn/7011781</lido:placeID>
+							<lido:placeID lido:type="http://terminology.lido-schema.org/lido00099">https://www.wikidata.org/wiki/Q84</lido:placeID>
+							<lido:namePlaceSet>
+								<lido:appellationValue lido:pref="http://terminology.lido-schema.org/lido00169" xml:lang="en">London</lido:appellationValue>
+							</lido:namePlaceSet>
+							<!-- Land -->
+							<lido:partOfPlace>
+								<lido:placeID lido:type="http://terminology.lido-schema.org/lido00099">https://www.wikidata.org/wiki/Q145</lido:placeID>
+								<lido:namePlaceSet>
+									<lido:appellationValue lido:pref="http://terminology.lido-schema.org/lido00169" xml:lang="en">United Kingdom</lido:appellationValue>
+								</lido:namePlaceSet>
+							</lido:partOfPlace>
+						</lido:repositoryLocation>
+					</lido:repositorySet>
+				</lido:repositoryWrap>
+				
+				<!--Material-->
+				<lido:objectMaterialsTechWrap>
+					<lido:objectMaterialsTechSet>
+						<!-- Anzeige der Materialien/Technik -->
+						<lido:displayMaterialsTech xml:lang="en">Ink on paper, representing tattoos on skin</lido:displayMaterialsTech>
+						<!-- Material-->
+						<lido:materialsTech>
+							<lido:termMaterialsTech lido:type="http://terminology.lido-schema.org/lido00514">
+								<skos:Concept rdf:about="http://vocab.getty.edu/aat/300014109">
+									<skos:prefLabel xml:lang="en">Paper (fiber product)</skos:prefLabel>
+								</skos:Concept>
+							</lido:termMaterialsTech>
+						</lido:materialsTech>
+						<!-- Technik -->
+						<lido:materialsTech>
+							<lido:termMaterialsTech lido:type="http://terminology.lido-schema.org/lido00131">
+								<skos:Concept rdf:about="http://vocab.getty.edu/aat/300054196">
+									<skos:prefLabel xml:lang="en">Drawing (image-making)</skos:prefLabel>
+								</skos:Concept>
+							</lido:termMaterialsTech>
+						</lido:materialsTech>
+					</lido:objectMaterialsTechSet>
+				</lido:objectMaterialsTechWrap>
+			</lido:objectIdentificationWrap>
+			
+			<!--Event-->
+			<lido:eventWrap>
+				<!--Herstellung-->
+				<lido:eventSet>
+					<lido:event>
+						<lido:eventType>
+							<skos:Concept rdf:about="http://terminology.lido-schema.org/lido00007">
+								<skos:prefLabel xml:lang="en">Production</skos:prefLabel>
+							</skos:Concept>
+						</lido:eventType>
+						<lido:eventActor>
+							<lido:displayActorInRole>drawn by: Danzig Baldaev (1925-2005)</lido:displayActorInRole>
+							<lido:actorInRole>
+								<lido:actor lido:type="http://terminology.lido-schema.org/lido00163">
+									<lido:actorID lido:type="http://terminology.lido-schema.org/lido00099">https://d-nb.info/gnd/1152216147</lido:actorID>
+									<owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1165316"/>
+									<lido:nameActorSet>
+										<!-- Für den Index bevorzugter Name (lido00169) -->
+										<lido:appellationValue lido:pref="http://terminology.lido-schema.org/lido00169">Baldaev, Danzig</lido:appellationValue>
+										<lido:appellationValue lido:pref="http://terminology.lido-schema.org/lido00526">Danzig Baldaev</lido:appellationValue>
+									</lido:nameActorSet>
+									<lido:nationalityActor lido:type="http://terminology.lido-schema.org/lido01028">
+										<skos:Concept rdf:about="https://www.wikidata.org/wiki/Q207050">
+											<skos:prefLabel xml:lang="en">Buryats</skos:prefLabel>
+											<skos:exactMatch rdf:resource="https://d-nb.info/gnd/4088697-9"/>
+										</skos:Concept>
+									</lido:nationalityActor>
+									<lido:vitalDatesActor>
+										<lido:earliestDate lido:type="http://terminology.lido-schema.org/lido00528">1925-12-19</lido:earliestDate>
+										<lido:latestDate lido:type="http://terminology.lido-schema.org/lido00528">2005-01-23</lido:latestDate>
+									</lido:vitalDatesActor>
+									<!-- Birthplace -->
+									<lido:vitalPlaceActor lido:type="http://terminology.lido-schema.org/lido00780">
+										<lido:placeID lido:type="http://terminology.lido-schema.org/lido00099">http://www.wikidata.org/entity/Q6816</lido:placeID>
+										<lido:namePlaceSet>
+											<lido:appellationValue xml:lang="en">Ulan-Ude</lido:appellationValue>
+										</lido:namePlaceSet>
+										<lido:displayPlace>Verkhneudinsk (now Ulan-Ude)</lido:displayPlace>
+									</lido:vitalPlaceActor>
+									<!-- Deathplace -->
+									<lido:vitalPlaceActor lido:type="http://terminology.lido-schema.org/lido00783">
+										<lido:placeID lido:type="http://terminology.lido-schema.org/lido00099">http://www.wikidata.org/entity/Q656</lido:placeID>
+										<lido:namePlaceSet>
+											<lido:appellationValue xml:lang="en">Saint Petersburg</lido:appellationValue>
+										</lido:namePlaceSet>
+									</lido:vitalPlaceActor>
+									<lido:genderActor lido:type="http://terminology.lido-schema.org/lido00867">
+										<skos:Concept rdf:about="http://terminology.lido-schema.org/lido00774">
+											<skos:prefLabel xml:lang="en">Male</skos:prefLabel>
+											<skos:exactMatch>http://vocab.getty.edu/aat/300189559</skos:exactMatch>
+											<skos:exactMatch>https://d-nb.info/standards/vocab/gnd/gender#male</skos:exactMatch>
+											<skos:exactMatch>http://www.wikidata.org/wiki/Q6581097</skos:exactMatch>
+										</skos:Concept>
+									</lido:genderActor>
+								</lido:actor>
+								<lido:roleActor>
+									<skos:Concept rdf:about="http://vocab.getty.edu/aat/300112172">
+										<skos:prefLabel xml:lang="en">draftsmen (artists)</skos:prefLabel>
+										<skos:exactMatch rdf:resource="https://d-nb.info/gnd/4200345-3"/>
+									</skos:Concept>
+								</lido:roleActor>
+								<lido:roleActor>
+									<skos:Concept rdf:about="http://vocab.getty.edu/aat/300264351">
+										<skos:prefLabel xml:lang="en">policemen</skos:prefLabel>
+										<skos:altLabel xml:lang="en">police officer</skos:altLabel>
+									</skos:Concept>
+								</lido:roleActor>
+								<lido:roleActor>
+									<skos:Concept rdf:about="http://vocab.getty.edu/aat/300265787">
+										<skos:prefLabel xml:lang="en">prison guards</skos:prefLabel>
+										<skos:altLabel xml:lang="en">prison officer</skos:altLabel>
+									</skos:Concept>
+								</lido:roleActor>
+							</lido:actorInRole>
+						</lido:eventActor>
+					</lido:event>
+				</lido:eventSet>
+				
+				<!--Dokumentation-->
+				<lido:eventSet>
+					<lido:event>
+						<lido:eventType>
+							<skos:Concept rdf:about="http://terminology.lido-schema.org/lido00024">
+								<skos:prefLabel xml:lang="en">Attribute assignment</skos:prefLabel>
+							</skos:Concept>
+						</lido:eventType>
+						
+						<lido:eventActor>
+							<lido:displayActorInRole>documented by: Danzig Baldaev (1925-2005)</lido:displayActorInRole>
+							<lido:actorInRole>
+								<lido:actor lido:type="http://terminology.lido-schema.org/lido00163">
+									<lido:actorID lido:type="http://terminology.lido-schema.org/lido00099">https://d-nb.info/gnd/1152216147</lido:actorID>
+									<owl:sameAs>https://www.wikidata.org/entity/Q1165316"></owl:sameAs>
+								</lido:actor>
+							</lido:actorInRole>
+						</lido:eventActor>
+						
+						<lido:eventActor>
+							<lido:displayActorInRole>tattooed person</lido:displayActorInRole>
+							<lido:actorInRole>
+								<lido:actor lido:type="http://terminology.lido-schema.org/lido00163">
+									<lido:genderActor lido:type="http://terminology.lido-schema.org/lido00867">
+										<skos:Concept rdf:about="http://terminology.lido-schema.org/lido00773">
+											<skos:prefLabel xml:lang="en">Female</skos:prefLabel>
+											<skos:exactMatch>http://vocab.getty.edu/aat/300189557</skos:exactMatch>
+											<skos:exactMatch>https://d-nb.info/standards/vocab/gnd/gender#female</skos:exactMatch>
+											<skos:exactMatch>http://www.wikidata.org/entity/Q6581072</skos:exactMatch>
+										</skos:Concept>
+									</lido:genderActor>
+								</lido:actor>
+							</lido:actorInRole>
+						</lido:eventActor>
+						<!-- Event Documentation-->
+						<lido:eventDate>
+							<lido:displayDate xml:lang="en">1981</lido:displayDate>
+							<lido:date>
+							<!-- Exact Date-->
+							<lido:earliestDate lido:type="http://terminology.lido-schema.org/lido00528">1981</lido:earliestDate>
+							</lido:date>
+						</lido:eventDate>
+						
+						<lido:eventPlace>
+							<lido:displayPlace xml:lang="en">Special Detention Centre of Misdemeanours, Leningrad</lido:displayPlace>
+							<lido:place>
+								<lido:placeID lido:type="http://terminology.lido-schema.org/lido00099">https://www.wikidata.org/entity/Q656</lido:placeID>
+								<owl:sameAs>https://www.geonames.org/498817/</owl:sameAs>
+								<lido:namePlaceSet>
+									<lido:appelationValue>Saint Petersburg</lido:appelationValue>
+								</lido:namePlaceSet>
+							</lido:place>
+						</lido:eventPlace>
+						
+					</lido:event>
+				</lido:eventSet>
+			</lido:eventWrap>
+			
+			<lido:objectRelationWrap>
+				<lido:subjectWrap>
+					<!-- Identifikation (Thema) (lido00136) -->
+					<!-- Auf dieser Ebene der Inhaltserschließung geht es darum, natürliche oder fiktive Personen, die auf dem Objekt dargestellt sind, 
+                    eindeutig zu identifizieren, um möglichst genaue Suchergebnisse zu erhalten.  -->
+
+					<!-- Iconclass-Ikonografie (lido00745) -->
+					<lido:subjectSet>
+						<lido:subject lido:type="http://terminology.lido-schema.org/lido00745">
+							<lido:subjectConcept>
+								<!-- Iconclass Codes für Themen -->
+								<skos:Concept rdf:about="https://iconclass.org/25G41">
+									<skos:prefLabel xml:lang="en">flowers)</skos:prefLabel>
+									<skos:notation>25G41</skos:notation>
+								</skos:Concept>
+							</lido:subjectConcept>
+							<lido:subjectConcept>
+								<skos:Concept rdf:about="http://iconclass.org/25F3">
+									<skos:prefLabel xml:lang="en">birds</skos:prefLabel>
+									<skos:notation>25F3</skos:notation>
+								</skos:Concept>
+							</lido:subjectConcept>
+							<lido:subjectConcept>
+								<skos:Concept rdf:about="http://iconclass.org/25G21(STRAWBERRY)">
+									<skos:prefLabel xml:lang="en">"fruits: strawberry"</skos:prefLabel>
+									<skos:notation>25G21(STRAWBERRY)</skos:notation>
+								</skos:Concept>
+							</lido:subjectConcept>
+							<lido:subjectConcept>
+								<skos:Concept rdf:about="http://iconclass.org/25G4(STRAWBERRY)">
+									<skos:prefLabel xml:lang="en">"plants and herbs: strawberry"</skos:prefLabel>
+									<skos:notation>25G4(STRAWBERRY)</skos:notation>
+								</skos:Concept>
+							</lido:subjectConcept>
+							<lido:subjectConcept>
+								<skos:Concept rdf:about="http://iconclass.org/41D221(HAT)">
+									<skos:prefLabel xml:lang="en">"head-gear: hat"</skos:prefLabel>
+									<skos:notation>41D221(HAT)</skos:notation>
+								</skos:Concept>
+							</lido:subjectConcept>
+							<lido:subjectConcept>
+								<skos:Concept rdf:about="http://iconclass.org/31A444">
+									<skos:prefLabel xml:lang="en">"anthropomorphic beings with parts of abnormal shape"</skos:prefLabel>
+									<skos:notation>31A444</skos:notation>
+								</skos:Concept>
+							</lido:subjectConcept>
+							<lido:subjectConcept>
+								<skos:Concept rdf:about="http://iconclass.org/49L7">
+									<skos:prefLabel xml:lang="en">"handwriting, written text"</skos:prefLabel>
+									<skos:notation>49L7</skos:notation>
+								</skos:Concept>
+							</lido:subjectConcept>
+							<lido:subjectConcept>
+								<skos:Concept rdf:about="https://iconclass.org/31A51511">
+									<skos:prefLabel xml:lang="en">tattoo</skos:prefLabel>
+									<skos:notation>31A51511</skos:notation>
+								</skos:Concept>
+							</lido:subjectConcept>
+						</lido:subject>
+					</lido:subjectSet>
+				</lido:subjectWrap>
+				
+				<!--related work-->
+				<lido:relatedWorksWrap>
+				
+					<lido:relatedWorkSet>
+						<lido:displayRelatedWork xml:lang="en">Original Tattoo</lido:displayRelatedWork>
+						<lido:relatedWork>
+							<lido:object>
+								<lido:objectNote>Hand-drawn documentation of the original tattoo on a prisoner's body</lido:objectNote>
+							</lido:object>
+							<lido:relatedWorkRelType>
+								<skos:Concept rdf:about="http://terminology.lido-schema.org/lido00262">
+									<skos:prefLabel xml:lang="en">is copy after</skos:prefLabel>
+								</skos:Concept>
+							</lido:relatedWorkRelType>
+						</lido:relatedWork>
+					</lido:relatedWorkSet>
+
+					<lido:relatedWorkSet>
+						<lido:displayRelatedWork xml:lang="en">Baldaev's Sketch of the Tattoo</lido:displayRelatedWork>
+						<lido:relatedWork>
+							<lido:object>
+								<lido:objectNote>Hand-drawn sketch by Danzig Baldaev documenting the tattoo</lido:objectNote>
+							</lido:object>
+						</lido:relatedWork>
+						<lido:relatedWorkRelType>
+								<skos:Concept rdf:about="http://terminology.lido-schema.org/lido00607">
+									<skos:prefLabel xml:lang="en">is reproduction of</skos:prefLabel>
+								</skos:Concept>
+							</lido:relatedWorkRelType>
+					</lido:relatedWorkSet>
+					
+					<lido:relatedWorkSet>
+						<lido:displayRelatedWork xml:lang="en">Plutser-Sarno, Alexei; Applebaum, Anne: Russian Criminal Tattoo Encyclopedia Volume 2. London: Fuel, 2006, p. 312</lido:displayRelatedWork>
+						<lido:relatedWorkRelType>
+							<skos:Concept rdf:about="http://terminology.lido-schema.org/lido00626">
+								<skos:prefLabel xml:lang="en">is reproduced in</skos:prefLabel>
+							</skos:Concept>
+						</lido:relatedWorkRelType>
+					</lido:relatedWorkSet>
+					
+					<lido:relatedWorkSet>
+						<lido:displayRelatedWork xml:lang="en">Is part of Sheet with multiple prison tattoo drawings (Baldaev-sheet-0003)</lido:displayRelatedWork>
+						<lido:relatedWork>
+							<lido:object>
+								<lido:objectID lido:type="http://terminology.lido-schema.org/lido00100" source="your-local-system">Baldaev-sheet-0003</lido:objectID>
+							</lido:object>
+						</lido:relatedWork>
+						<lido:relatedWorkRelType>
+							<skos:Concept rdf:about="http://terminology.lido-schema.org/lido00574">
+								<skos:prefLabel xml:lang="en">is part of</skos:prefLabel>
+							</skos:Concept>
+						</lido:relatedWorkRelType>
+					</lido:relatedWorkSet>
+					
+				</lido:relatedWorksWrap>
+				
+			</lido:objectRelationWrap>
+			
+		</lido:descriptiveMetadata>
+		
+		<!-- Administrative Metadaten -->
+		<lido:administrativeMetadata xml:lang="en">
+			<lido:rightsWorkWrap>
+				<lido:rightsWorkSet>
+					<lido:rightsType lido:type="http://terminology.lido-schema.org/lido00921">
+						<skos:Concept rdf:about="https://rightsstatements.org/vocab/InC/1.0/">
+							<skos:prefLabel xml:lang="en">In Copyright</skos:prefLabel>
+						</skos:Concept>
+					</lido:rightsType>
+			
+					<lido:rightsHolder>
+						<lido:legalBodyID lido:type="http://terminology.lido-schema.org/lido00099">https://d-nb.info/gnd/5528091-2</lido:legalBodyID>
+						<lido:legalBodyName>
+							<lido:appellationValue>FUEL Design Publishing</lido:appellationValue>
+						</lido:legalBodyName>
+						<lido:legalBodyWeblink>https://fuel-design.com/</lido:legalBodyWeblink>
+					</lido:rightsHolder>
+				</lido:rightsWorkSet>
+			</lido:rightsWorkWrap>
+			
+			<lido:recordWrap>
+				<lido:recordID lido:type="http://terminology.lido-schema.org/lido00100">Baldaev_Archive</lido:recordID>
+				<lido:recordType>
+					<skos:Concept rdf:about="http://terminology.lido-schema.org/lido00141">
+						<skos:prefLabel xml:lang="en">Item-level record</skos:prefLabel>
+						<skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300404024"/>
+					</skos:Concept>
+				</lido:recordType>
+				<lido:recordSource>
+					<lido:legalBodyName>
+						<lido:appellationValue>Daniil Chekurov</lido:appellationValue>
+					</lido:legalBodyName>
+				</lido:recordSource>
+				<lido:recordRights>
+					<!-- Spezifische Rechteangabe -->
+					<lido:rightsType lido:type="http://terminology.lido-schema.org/lido00921">
+						<skos:Concept rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+							<skos:prefLabel xml:lang="de">CC0 1.0 Universell Public Domain
+                                Dedication							</skos:prefLabel>
+							<skos:prefLabel xml:lang="en">CC0 1.0 Universal Public Domain
+                                Dedication							</skos:prefLabel>
+						</skos:Concept>
+					</lido:rightsType>
+				</lido:recordRights>
+				<!-- Letzte Aktualisierung des Datensatzes -->
+				<lido:recordMetadataDate lido:type="http://terminology.lido-schema.org/lido00472">2025-02-10</lido:recordMetadataDate>
+			</lido:recordWrap>
+
+
+		</lido:administrativeMetadata>
+	</lido:lido>
+</lido:lidoWrap>
+
+
+
+
+
