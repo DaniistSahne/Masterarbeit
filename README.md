@@ -12,7 +12,7 @@ Diese Masterarbeit befasst sich mit der **digitalen Modellierung, Annotation und
 ## Inhalt des Repositories
 | Ordner / Datei                        | Beschreibung |
 |--------------------------------------|-------------|
-| `data/`                              | Original- und Zwischendaten (JSON, TXT, Excel) |
+| `data/`                              | Original- und Zwischendaten |
 | `src/`                               | Jupyter-Notebooks, YAML |
 | `README.md`                          | Diese Datei |
 | `requirements.txt`                   | Python-Abhängigkeiten |
