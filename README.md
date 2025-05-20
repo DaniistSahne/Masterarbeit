@@ -13,9 +13,7 @@ Diese Masterarbeit befasst sich mit der **digitalen Modellierung, Annotation und
 | Ordner / Datei                        | Beschreibung |
 |--------------------------------------|-------------|
 | `data/`                              | Original- und Zwischendaten (JSON, TXT, Excel) |
-| `xml/`                               | LIDO-konforme XML-Dateien (Export pro Eintrag) |
-| `img/`                               | Diagramme und Visualisierungen (z. B. Lorenzkurve) |
-| `latex/`                             | LaTeX-Dateien zur Druckausgabe (inkl. Anhang & Code) |
+| `src/`                               | Jupyter-Notebooks, YAML |
 | `README.md`                          | Diese Datei |
 | `requirements.txt`                   | Python-Abhängigkeiten |
 
